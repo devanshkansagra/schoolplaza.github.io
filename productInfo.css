@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+.container {
+    /* border: 2px solid black; */
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.imageBox img{
+   width: 350px;
+   height: 350px;
+
+}
+
+.infoBox {
+    /* border: 2px solid blue; */
+    margin: 40px 100px;
+    width: 500px;
+}
+.title p {
+    font-size: 30px;
+    margin: 8px 0;
+}
+.description {
+    width: 400px;
+}
+.descontent {
+    width: 300px;
+    font-size: 30px;
+}
+
+.description li {
+    padding: 10px 15px;
+}
+.purchase  {
+    position: relative;
+    top: 40px;
+}
+
+
+.purchase div input {
+    width: 40px;
+    padding: 10px 8px;
+    border: 1px solid rgb(222, 221, 221);
+    /* box-shadow: 1px 1px 2px gray; */
+    font-size: 20px;
+}
+.purchase button {
+    margin-top: 35px;
+    margin-left: 12px;
+    padding: 10px 20px;
+    background:none;
+    background-color: #4c6ef6;
+    border: none;
+    font-size: 20px;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.03s;
+    border-radius: 8px;
+    color: white;
+
+}
+.purchase button:hover {
+    background-color: #395ff3;
+}
+
+@media(max-width: 1200px) and (min-width: 0px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        /* position:  */
+
+    }
+
+    section .p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+    nav ul {
+        flex-wrap: nowrap;
+    }
+
+    nav li {
+        margin: 3px;
+    }
+
+    nav li a {
+        font-size: 14px;
+    }
+
+    nav li input {
+        padding: 3px 8px;
+        border-radius: 14px;
+        border: 2px solid gray;
+    }
+}
+
+
+@media (max-width: 414px) and (min-width: 390px) {
+    section {
+        position: relative;
+        top: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+        position: sticky;
+        z-index: 10;
+        top: 0px;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 390px) and (min-width: 0px) {
+    section {
+        position: relative;
+        top: 30px;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+        position: sticky;
+        z-index: 10;
+        top: 0px;
+        width: 100vw;
+    }
+    nav li a {
+        font-size: 10px;
+    }
+    nav li input {
+        width: 45px;
+        padding: 1px 4px;
+    }
+}
+/* @media (max-width: 380px) and (min-width: 0px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .descontent {
+        font-size: 15px;
+    }
+}    */

@@ -1,0 +1,151 @@
+@media(max-width: 1700px) and (min-width: 1200px) {
+    nav li a {
+        font-size: 20px;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    nav li input {
+        width: 175px;
+        padding: 4px 4px;
+    }
+
+    .image .p {
+        font-size: 40px;
+    }
+
+    .box {
+        height: 200px;
+        width: 200px;
+    }
+
+    .box img {
+        height: 188px;
+        width: 180px;
+    }
+}
+
+@media(max-width: 1200px) and (min-width: 0px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        /* position:  */
+
+    }
+
+    section .p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 0px) {
+    nav ul {
+        flex-wrap: nowrap;
+    }
+
+    nav li {
+        margin: 3px;
+    }
+
+    nav li a {
+        font-size: 14px;
+    }
+
+    nav li input {
+        padding: 3px 8px;
+        border-radius: 14px;
+        border: 2px solid gray;
+    }
+}
+
+
+@media (max-width: 414px) and (min-width: 390px) {
+    section {
+        position: relative;
+        top: 20px;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+        position: sticky;
+        z-index: 10;
+        top: 0px;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 390px) and (min-width: 0px) {
+    section {
+        position: relative;
+        top: 30px;
+    }
+
+    header {
+        display: flex;
+        justify-content: left;
+        position: sticky;
+        z-index: 10;
+        top: 0px;
+        width: 100vw;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    nav li input {
+        width: 45px;
+        padding: 1px 4px;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 0px) {
+    .box {
+        height: 175px;
+        width: 175px;
+    }
+
+    .box img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 1650px) and (min-width: 1200) {
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 520px) and (min-width: 400px) {
+    nav li a {
+        font-size: 15px;
+    }
+
+    nav li input {
+        width: 45px;
+        padding: 1px 2px;
+    }
+}
+
+@media(max-width: 560px) and (min-width: 526px) {
+    nav li a {
+        font-size: 15px;
+    }
+
+    nav li input {
+        width: 55px;
+        padding: 1px 2px;
+    }
+}
