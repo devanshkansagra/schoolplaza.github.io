@@ -39,18 +39,25 @@
 .purchase  {
     position: relative;
     top: 40px;
+    /* border: 2px solid black; */
+    /* height: 50px; */
 }
 
-
+.purchase div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .purchase div input {
     width: 40px;
-    padding: 10px 8px;
+    padding: 1px 8px;
     border: 1px solid rgb(222, 221, 221);
     /* box-shadow: 1px 1px 2px gray; */
     font-size: 20px;
+    height: 50px;
 }
 .purchase button {
-    margin-top: 35px;
+    margin-top: 2px;
     margin-left: 12px;
     padding: 10px 20px;
     background:none;
@@ -124,6 +131,16 @@
         top: 0px;
         width: 100vw;
     }
+    .descontent {
+        font-size: 25px;
+    }
+    .title p {
+        font-size: 25px;
+        text-align: center;
+    }
+    .description li p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 390px) and (min-width: 0px) {
@@ -146,6 +163,13 @@
     nav li input {
         width: 45px;
         padding: 1px 4px;
+    }
+    .descontent {
+        font-size: 25px;
+    }
+    .title p {
+        font-size: 25px;
+        text-align: center;
     }
 }
 /* @media (max-width: 380px) and (min-width: 0px) {
