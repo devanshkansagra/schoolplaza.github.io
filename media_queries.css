@@ -4,7 +4,8 @@
     }
 
     header {
-        width: 100vw;
+        width: 102vw;
+        overflow: hidden;
     }
 
     nav li input {
@@ -49,6 +50,8 @@
         display: flex;
         justify-content: flex-start;
         /* position:  */
+        width: 104vw;
+        overflow: hidden;
 
     }
 
@@ -80,10 +83,11 @@
     }
 }
 
-@media (max-width: 414px) and (min-width: 390px) {
+@media (max-width: 414px) and (min-width: 391px) {
     section {
         position: relative;
         top: 20px;
+        overflow: hidden;
     }
 
     header {
@@ -92,7 +96,8 @@
         position: sticky;
         z-index: 10;
         top: 0px;
-        width: 100vw;
+        width: 102vw;
+        overflow: hidden;
     }
 
     .left {
@@ -104,12 +109,12 @@
     }
 
     nav li input {
-        width: 40px;
+        width: 43px;
         padding: 1px 4px;
     }
 }
 
-@media (max-width: 391px) and (min-width: 0px) {
+@media (max-width: 390px) and (min-width: 0px) {
     section {
         position: relative;
         top: 30px;
@@ -121,7 +126,8 @@
         position: sticky;
         z-index: 10;
         top: 0px;
-        width: 101vw;
+        width: 103vw;
+        overflow: hidden;
 
     }
 
@@ -154,12 +160,14 @@
 @media (max-width: 1650px) and (min-width: 1200) {
     .cards {
         flex-wrap: wrap;
+        justify-content: center;
+        /* align-items: center; */
     }
 }
 
 @media(max-width: 520px) and (min-width: 400px) {
     nav li a {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     nav li input {
@@ -176,5 +184,52 @@
     nav li input {
         width: 55px;
         padding: 1px 2px;
+    }
+}
+/* @media(max-width: 1200px) and (min-width: 0px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+} */
+
+@media (max-width: 1200px) and (min-width: 0px) {
+    /* header {
+        display: flex;
+        justify-content: flex-start;
+        position: 
+
+    } */
+
+    section .p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 414px) and (min-width: 390px) {
+    .desContent {
+        font-size: 25px;
+    }
+    .title p {
+        font-size: 25px;
+        text-align: center;
+    }
+    .description li p {
+        font-size: 23px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 390px) and (min-width: 0px) {
+    .desContent {
+        font-size: 25px;
+    }
+    .description li p{
+        font-size: 25px;
+    }
+    .title p {
+        font-size: 25px;
+        text-align: center;
     }
 }
