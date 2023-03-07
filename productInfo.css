@@ -35,6 +35,7 @@
 
 .description li {
     padding: 10px 15px;
+    list-style: none;
 }
 .purchase  {
     position: relative;
@@ -74,110 +75,3 @@
 .purchase button:hover {
     background-color: #395ff3;
 }
-
-@media(max-width: 1200px) and (min-width: 0px) {
-    .cards {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 0px) {
-    header {
-        display: flex;
-        justify-content: flex-start;
-        /* position:  */
-
-    }
-
-    section .p {
-        font-size: 40px;
-    }
-}
-
-@media (max-width: 1200px) and (min-width: 0px) {
-    nav ul {
-        flex-wrap: nowrap;
-    }
-
-    nav li {
-        margin: 3px;
-    }
-
-    nav li a {
-        font-size: 14px;
-    }
-
-    nav li input {
-        padding: 3px 8px;
-        border-radius: 14px;
-        border: 2px solid gray;
-    }
-}
-
-
-@media (max-width: 414px) and (min-width: 390px) {
-    section {
-        position: relative;
-        top: 20px;
-    }
-
-    header {
-        display: flex;
-        justify-content: left;
-        position: sticky;
-        z-index: 10;
-        top: 0px;
-        width: 100vw;
-    }
-    .descontent {
-        font-size: 25px;
-    }
-    .title p {
-        font-size: 25px;
-        text-align: center;
-    }
-    .description li p {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 390px) and (min-width: 0px) {
-    section {
-        position: relative;
-        top: 30px;
-    }
-
-    header {
-        display: flex;
-        justify-content: left;
-        position: sticky;
-        z-index: 10;
-        top: 0px;
-        width: 100vw;
-    }
-    nav li a {
-        font-size: 10px;
-    }
-    nav li input {
-        width: 45px;
-        padding: 1px 4px;
-    }
-    .descontent {
-        font-size: 25px;
-    }
-    .title p {
-        font-size: 25px;
-        text-align: center;
-    }
-}
-/* @media (max-width: 380px) and (min-width: 0px) {
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-    .descontent {
-        font-size: 15px;
-    }
-}    */
